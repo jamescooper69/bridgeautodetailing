@@ -5,25 +5,25 @@
 
 @layer base {
   :root {
-    --background: 0, 0%, 5%;        /* Jet Black */
-    --foreground: 0, 0%, 96%;       /* Pearl White */
-    --card: 0, 0%, 10%;             /* Gunmetal Gray */
-    --card-foreground: 0, 0%, 96%;  /* Pearl White */
-    --popover: 0, 0%, 10%;          /* Gunmetal Gray */
-    --popover-foreground: 48, 65%, 52%; /* Royal Gold */
-    --primary: 46, 62%, 53%;        /* Royal Gold */
-    --primary-foreground: 0, 0%, 5%;  /* Jet Black */
-    --secondary: 213, 100%, 20%;    /* Deep Sapphire Blue */
-    --secondary-foreground: 0, 0%, 96%;  /* Pearl White */
-    --muted: 0, 0%, 69%;            /* Cool Gray */
-    --muted-foreground: 0, 0%, 96%; /* Pearl White */
-    --accent: 211, 100%, 52%;       /* Electric Blue */
-    --accent-foreground: 0, 0%, 96%;/* Pearl White */
-    --destructive: 0, 84%, 60%;     /* Red */
-    --destructive-foreground: 0, 0%, 96%;
-    --border: 0, 0%, 18%;
-    --input: 0, 0%, 10%;
-    --ring: 46, 62%, 53%;           /* Royal Gold */
+    --background: 222, 33%, 98%;   /* #F5F7FA */
+    --foreground: 222, 15%, 16%;   /* #222831 */
+    --card: 0, 0%, 100%;           /* #FFFFFF */
+    --card-foreground: 222, 15%, 16%;  /* #222831 */
+    --popover: 0, 0%, 100%;        /* #FFFFFF */
+    --popover-foreground: 210, 100%, 56%; /* #1E90FF */
+    --primary: 210, 100%, 56%;     /* #1E90FF */
+    --primary-foreground: 0, 0%, 100%;  /* #FFFFFF */
+    --secondary: 207, 100%, 66%;   /* #4DA6FF */
+    --secondary-foreground: 222, 15%, 16%;  /* #222831 */
+    --muted: 0, 0%, 69%;           /* #B0B0B0 */
+    --muted-foreground: 222, 15%, 16%; /* #222831 */
+    --accent: 217, 74%, 17%;       /* #0A1E3F */
+    --accent-foreground: 0, 0%, 100%;/* #FFFFFF */
+    --destructive: 0, 84%, 60%;    /* Red */
+    --destructive-foreground: 0, 0%, 100%;
+    --border: 214, 15%, 85%;       /* #D1D5DB */
+    --input: 0, 0%, 96%;           /* #F5F5F5 */
+    --ring: 210, 100%, 56%;        /* #1E90FF */
     --radius: 1.2rem;
   }
   body {
@@ -31,20 +31,39 @@
     font-family: 'Montserrat', 'ui-sans-serif', 'system-ui', sans-serif;
   }
   .premium-gradient {
-    background: linear-gradient(135deg, #0D0D0D 0%, #1A1A1A 100%);
+    background: linear-gradient(135deg, #F5F7FA 0%, #E6EAF0 100%);
   }
   .card-premium {
-    background: linear-gradient(120deg, #1A1A1A 60%, #003366 100%);
+    background: linear-gradient(120deg, #FFFFFF 60%, #4DA6FF 100%);
     border-radius: 1.2rem;
-    box-shadow: 0 4px 32px 0 rgba(44, 44, 44, 0.15);
-    color: #F5F5F5;
+    box-shadow: 0 4px 32px 0 rgba(39, 56, 89, 0.10);
+    color: #222831;
   }
-  .btn-gold {
-    @apply bg-primary text-primary-foreground font-bold py-3 px-8 rounded-full hover:bg-yellow-500 hover:text-black transition-colors duration-200;
-    box-shadow: 0 2px 8px 0 rgba(212, 175, 55, 0.25);
+  .btn-gold, .btn-accent {
+    @apply bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-[#1C86EE] transition-colors duration-200;
+    box-shadow: 0 2px 8px 0 rgba(30, 144, 255, 0.20);
   }
-  .btn-accent {
-    @apply bg-accent text-white font-bold py-3 px-8 rounded-full hover:bg-blue-700 transition-colors duration-200;
+  .btn-primary {
+    @apply bg-primary text-white font-bold py-3 px-6 rounded-full hover:bg-[#1C86EE] transition-colors duration-200;
+  }
+  .btn-secondary {
+    @apply bg-secondary text-secondary-foreground font-bold py-3 px-6 rounded-full hover:bg-blue-400 transition-colors duration-200;
+  }
+  .section-heading, h1, h2, h3, h4 {
+    @apply text-foreground;
+  }
+  .section-heading {
+    @apply text-3xl font-bold mb-6;
+    color: #222831;
+  }
+  .section-subheading {
+    @apply text-xl font-semibold mb-4 text-secondary;
+  }
+  .container-custom {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  p, span, label, li {
+    color: #222831;
   }
 }
 
@@ -52,24 +71,5 @@
   .service-card {
     @apply bg-card rounded-lg shadow-md p-6 hover:shadow-xl transition-shadow duration-300 text-foreground;
   }
-
-  .btn-primary {
-    @apply bg-accent text-white font-bold py-3 px-6 rounded-full hover:bg-blue-700 transition-colors duration-200;
-  }
-
-  .btn-secondary {
-    @apply bg-primary text-primary-foreground font-bold py-3 px-6 rounded-full hover:bg-yellow-500 hover:text-black transition-colors duration-200;
-  }
-
-  .section-heading {
-    @apply text-3xl font-bold mb-6 text-primary;
-  }
-
-  .section-subheading {
-    @apply text-xl font-semibold mb-4 text-secondary;
-  }
-
-  .container-custom {
-    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
-  }
 }
+

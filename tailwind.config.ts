@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -19,41 +20,41 @@ export default {
     },
     extend: {
       colors: {
-        background: "#0D0D0D", // Jet Black
-        foreground: "#F5F5F5", // Pearl White
+        background: "#F5F7FA", // Light Gray Background
+        foreground: "#222831", // Dark Gray/Charcoal for text
         primary: {
-          DEFAULT: "#D4AF37", // Royal Gold
-          foreground: "#0D0D0D",
+          DEFAULT: "#1E90FF", // Dodger Blue
+          foreground: "#FFFFFF",
         },
         secondary: {
-          DEFAULT: "#003366", // Deep Sapphire Blue
-          foreground: "#F5F5F5",
+          DEFAULT: "#4DA6FF", // Soft Accent Blue
+          foreground: "#222831",
         },
         accent: {
-          DEFAULT: "#007BFF", // Electric Blue
-          foreground: "#F5F5F5",
+          DEFAULT: "#0A1E3F", // Dark Blue for contrast
+          foreground: "#FFFFFF",
         },
         card: {
-          DEFAULT: "#1A1A1A", // Gunmetal Gray
-          foreground: "#F5F5F5",
+          DEFAULT: "#FFFFFF", // White cards
+          foreground: "#222831",
         },
         muted: {
           DEFAULT: "#B0B0B0", // Cool Gray
-          foreground: "#F5F5F5",
+          foreground: "#222831",
         },
         success: {
           DEFAULT: "#2ECC71", // Emerald Green
         },
-        border: "#2A2A2A",
-        input: "#1A1A1A",
-        ring: "#D4AF37",
+        border: "#D1D5DB",
+        input: "#F5F5F5",
+        ring: "#1E90FF",
         destructive: {
           DEFAULT: "#EF4444",
-          foreground: "#F5F5F5",
+          foreground: "#FFFFFF",
         },
         popover: {
-          DEFAULT: "#1A1A1A",
-          foreground: "#D4AF37",
+          DEFAULT: "#FFFFFF",
+          foreground: "#1E90FF",
         },
       },
       borderRadius: {
@@ -79,3 +80,4 @@ export default {
   },
   plugins: [require("tailwindcss-animate")],
 } satisfies Config;
+
