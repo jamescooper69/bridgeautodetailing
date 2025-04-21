@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom';
 
 const CTASection = () => {
   return (
-    <section className="bg-primary py-16">
+    <section className="premium-gradient py-16">
       <div className="container-custom text-center">
-        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-white">
+        <h2 className="text-3xl md:text-4xl font-bold mb-6 text-secondary">
           Ready for a Showroom Shine?
         </h2>
         <p className="text-white text-xl mb-8 max-w-2xl mx-auto">
-          Give your car the premium detailing treatment it deserves. We come to your home or workplace.
+          Only in Lethbridge City — mobile luxury detailing at your convenience. Gold-standard service from booking to finish.
         </p>
-        <Link to="/book-now" className="bg-white text-primary font-bold py-3 px-8 rounded-full hover:bg-gray-100 transition-colors duration-200 text-lg">
+        <Link to="/book-now" className="btn-gold text-lg">
           Book Your Detailing Now
         </Link>
       </div>

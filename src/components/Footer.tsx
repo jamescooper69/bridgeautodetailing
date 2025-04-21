@@ -1,17 +1,16 @@
-
 import { Link } from 'react-router-dom';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-gray-900 text-white">
+    <footer className="premium-gradient text-white mt-10">
       <div className="container-custom py-12">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Bridge Auto Detailing</h3>
+            <h3 className="text-xl font-bold mb-4 text-secondary">Bridge Auto Detailing</h3>
             <p className="mb-4">
-              Premium mobile car detailing services in Alberta and British Columbia. We bring our expertise to your doorstep!
+              Serving Lethbridge City, Canada with premium mobile car detailing. Experience automotive care like never before!
             </p>
           </div>
 
@@ -19,34 +18,18 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Services</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/interior-detailing" className="hover:text-primary transition-colors">
+                <Link to="/interior-detailing" className="hover:text-secondary transition-colors">
                   Interior Detailing
                 </Link>
               </li>
               <li>
-                <Link to="/exterior-detailing" className="hover:text-primary transition-colors">
+                <Link to="/exterior-detailing" className="hover:text-secondary transition-colors">
                   Exterior Detailing
                 </Link>
               </li>
               <li>
-                <Link to="/complete-detailing" className="hover:text-primary transition-colors">
+                <Link to="/complete-detailing" className="hover:text-secondary transition-colors">
                   Complete Auto Detailing
-                </Link>
-              </li>
-            </ul>
-          </div>
-
-          <div>
-            <h3 className="text-xl font-bold mb-4">Service Areas</h3>
-            <ul className="space-y-2">
-              <li>
-                <Link to="/british-columbia" className="hover:text-primary transition-colors">
-                  British Columbia
-                </Link>
-              </li>
-              <li>
-                <Link to="/alberta" className="hover:text-primary transition-colors">
-                  Alberta
                 </Link>
               </li>
             </ul>
@@ -56,27 +39,27 @@ const Footer = () => {
             <h3 className="text-xl font-bold mb-4">Quick Links</h3>
             <ul className="space-y-2">
               <li>
-                <Link to="/about" className="hover:text-primary transition-colors">
+                <Link to="/about" className="hover:text-secondary transition-colors">
                   About Us
                 </Link>
               </li>
               <li>
-                <Link to="/contact" className="hover:text-primary transition-colors">
+                <Link to="/contact" className="hover:text-secondary transition-colors">
                   Contact
                 </Link>
               </li>
               <li>
-                <Link to="/book-now" className="hover:text-primary transition-colors">
+                <Link to="/book-now" className="hover:text-secondary transition-colors">
                   Book Now
                 </Link>
               </li>
               <li>
-                <Link to="/privacy-policy" className="hover:text-primary transition-colors">
+                <Link to="/privacy-policy" className="hover:text-secondary transition-colors">
                   Privacy Policy
                 </Link>
               </li>
               <li>
-                <Link to="/terms-conditions" className="hover:text-primary transition-colors">
+                <Link to="/terms-conditions" className="hover:text-secondary transition-colors">
                   Terms and Conditions
                 </Link>
               </li>
@@ -95,4 +78,3 @@ const Footer = () => {
 };
 
 export default Footer;
-

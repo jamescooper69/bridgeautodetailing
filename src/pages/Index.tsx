@@ -1,4 +1,3 @@
-
 import Hero from '@/components/Hero';
 import ServiceCard from '@/components/ServiceCard';
 import ServiceArea from '@/components/ServiceArea';
@@ -8,30 +7,28 @@ const Index = () => {
   return (
     <div>
       <Hero />
-      
-      <section className="py-16 bg-gray-50">
+
+      <section className="py-16 bg-background">
         <div className="container-custom">
-          <h2 className="section-heading text-center">Our Premium Detailing Services</h2>
+          <h2 className="section-heading text-center text-primary">Our Premium Detailing Services</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
             <ServiceCard 
               title="Interior Car Detailing"
-              description="Tired of waiting at detailing shops? We bring top-quality car detailing right to your home or workplace! Our expert team ensures your vehicle looks spotless."
+              description="Experience top-quality car detailing at your home or workplace in Lethbridge City! Our expert team ensures your vehicle looks spotless."
               linkUrl="/interior-detailing"
               linkText="Learn More"
               imageUrl="https://images.unsplash.com/photo-1562273138-f46be4ebdf33?w=800&q=80"
             />
-            
             <ServiceCard 
               title="Exterior Car Detailing"
-              description="Your car's exterior is constantly exposed to dirt, dust, road grime, and harsh weather. Our professional exterior detailing service is designed to restore and protect your car's shine."
+              description="Your car's exterior is exposed to road grime and the elements. Our professional service restores, protects, and enhances your shine—serving Lethbridge City only."
               linkUrl="/exterior-detailing"
               linkText="Learn More"
               imageUrl="https://images.unsplash.com/photo-1607860108855-64acf2078ed9?w=800&q=80"
             />
-            
             <ServiceCard 
               title="Complete Auto Detailing"
-              description="Tired of waiting at detailing shops? We bring top-quality complete auto detailing right to your home or workplace! Our expert team ensures your vehicle looks spotless inside and out."
+              description="Enjoy our full luxury auto detailing at your doorstep in Lethbridge City—inside and out."
               linkUrl="/complete-detailing"
               linkText="Learn More"
               imageUrl="https://images.unsplash.com/photo-1605515298946-d091848b008a?w=800&q=80"
@@ -42,45 +39,39 @@ const Index = () => {
       
       <section className="py-16">
         <div className="container-custom">
-          <h2 className="section-heading text-center">Service Areas</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mt-12">
+          <h2 className="section-heading text-center text-primary">Our Service Area</h2>
+          <div className="grid grid-cols-1 md:grid-cols-1 gap-8 mt-12">
             <ServiceArea 
-              region="British Columbia"
-              description="Restore, protect, and enhance your vehicle's look with our expert detailing services across British Columbia. We come to you!"
-            />
-            
-            <ServiceArea 
-              region="Alberta"
-              description="Restore, protect, and enhance your vehicle's look with our expert detailing services across Alberta. We come to you!"
+              region="Lethbridge City, Canada"
+              description="Restore, protect, and detail your vehicle with our expert team—serving only clients in Lethbridge City."
             />
           </div>
         </div>
       </section>
-      
       <CTASection />
-      
-      <section className="py-16 bg-gray-50">
+
+      <section className="py-16 bg-background">
         <div className="container-custom">
-          <h2 className="section-heading text-center">Why Choose Right Car Detailing</h2>
+          <h2 className="section-heading text-center text-primary">Why Choose Bridge Auto Detailing</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mt-12">
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Mobile Service</h3>
-              <p className="text-gray-600">
-                We come to your home or office, saving you time and hassle.
+            <div className="card-premium p-8 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-secondary">Mobile Service</h3>
+              <p>
+                We come to your home or office anywhere in Lethbridge City, providing seamless convenience.
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Professional Results</h3>
-              <p className="text-gray-600">
-                Our expert technicians use premium products for exceptional quality.
+            <div className="card-premium p-8 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-secondary">Professional Results</h3>
+              <p>
+                Our technicians use only the most advanced products for an unmatched finish and protection.
               </p>
             </div>
             
-            <div className="bg-white p-8 rounded-lg shadow-md">
-              <h3 className="text-xl font-bold mb-4 text-gray-800">Convenient Booking</h3>
-              <p className="text-gray-600">
-                Simple online booking process with flexible scheduling options.
+            <div className="card-premium p-8 rounded-lg shadow-md">
+              <h3 className="text-xl font-bold mb-4 text-secondary">Luxury Experience</h3>
+              <p>
+                Enjoy a premium auto detailing experience designed to impress and satisfy every time.
               </p>
             </div>
           </div>
