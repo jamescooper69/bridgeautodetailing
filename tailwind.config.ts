@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -20,38 +19,41 @@ export default {
     },
     extend: {
       colors: {
-        border: "#ECECEC",
-        input: "#ECECEC",
-        ring: "#8766FD",
-        background: "#181F2C", // Deep navy
-        foreground: "#F3F3F8", // Off white
+        background: "#0D0D0D", // Jet Black
+        foreground: "#F5F5F5", // Pearl White
         primary: {
-          DEFAULT: "#4427A0", // Royal Purple
-          foreground: "#FEF7E6", // Very light gold
+          DEFAULT: "#D4AF37", // Royal Gold
+          foreground: "#0D0D0D",
         },
         secondary: {
-          DEFAULT: "#FFD700", // Gold
-          foreground: "#181F2C", // For constrast
+          DEFAULT: "#003366", // Deep Sapphire Blue
+          foreground: "#F5F5F5",
         },
         accent: {
-          DEFAULT: "#8866EE", // Soft purple
-          foreground: "#181F2C",
-        },
-        muted: {
-          DEFAULT: "#EFEAF7", // Subtle purple background
-          foreground: "#4427A0",
+          DEFAULT: "#007BFF", // Electric Blue
+          foreground: "#F5F5F5",
         },
         card: {
-          DEFAULT: "#211B2A",
-          foreground: "#F3F3F8",
+          DEFAULT: "#1A1A1A", // Gunmetal Gray
+          foreground: "#F5F5F5",
         },
-        popover: {
-          DEFAULT: "#29243E",
-          foreground: "#FFD700",
+        muted: {
+          DEFAULT: "#B0B0B0", // Cool Gray
+          foreground: "#F5F5F5",
         },
+        success: {
+          DEFAULT: "#2ECC71", // Emerald Green
+        },
+        border: "#2A2A2A",
+        input: "#1A1A1A",
+        ring: "#D4AF37",
         destructive: {
           DEFAULT: "#EF4444",
-          foreground: "#FEF7E6",
+          foreground: "#F5F5F5",
+        },
+        popover: {
+          DEFAULT: "#1A1A1A",
+          foreground: "#D4AF37",
         },
       },
       borderRadius: {

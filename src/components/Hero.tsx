@@ -1,12 +1,11 @@
-
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
   return (
-    <section className="premium-gradient text-white">
+    <section className="premium-gradient text-foreground">
       <div className="container-custom py-20">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-gold drop-shadow-lg">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 text-primary drop-shadow-lg">
             Premium Mobile Car Detailing in Lethbridge City
           </h1>
           <p className="text-xl mb-8">
@@ -19,7 +18,7 @@ const Hero = () => {
             <Link to="/contact" className="btn-gold">
               Book Now
             </Link>
-            <Link to="/contact" className="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors duration-200">
+            <Link to="/contact" className="btn-primary">
               Contact Us
             </Link>
           </div>
