@@ -32,7 +32,7 @@ const Index = () => {
               description="Enjoy our full luxury auto detailing at your doorstep in Lethbridge City—inside and out."
               linkUrl="/complete-detailing"
               linkText="Learn More"
-              imageUrl="https://images.unsplash.com/photo-1616628184584-f9214be51aab?w=800&q=80"
+              imageUrl="/lovable-uploads/cef878dd-5121-4810-8b9b-5a9ee797f92c.png"
             />
           </div>
         </div>
@@ -83,3 +83,4 @@ const Index = () => {
 };
 
 export default Index;
+
