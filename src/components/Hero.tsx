@@ -16,7 +16,7 @@ const Hero = () => {
             We come to your doorstep in Lethbridge City, with the gold standard in car care.
           </p>
           <div className="flex flex-col sm:flex-row justify-center gap-4">
-            <Link to="/book-now" className="btn-gold">
+            <Link to="/contact" className="btn-gold">
               Book Now
             </Link>
             <Link to="/contact" className="bg-white text-primary font-bold py-3 px-6 rounded-full hover:bg-gray-100 transition-colors duration-200">

@@ -1,4 +1,3 @@
-
 import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -14,7 +13,6 @@ import CompleteDetailing from "./pages/CompleteDetailing";
 import BritishColumbia from "./pages/BritishColumbia";
 import Alberta from "./pages/Alberta";
 import Contact from "./pages/Contact";
-import BookNow from "./pages/BookNow";
 import PrivacyPolicy from "./pages/PrivacyPolicy";
 import TermsConditions from "./pages/TermsConditions";
 import NotFound from "./pages/NotFound";
@@ -37,7 +35,6 @@ const App = () => (
             <Route path="/british-columbia" element={<BritishColumbia />} />
             <Route path="/alberta" element={<Alberta />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/book-now" element={<BookNow />} />
             <Route path="/privacy-policy" element={<PrivacyPolicy />} />
             <Route path="/terms-conditions" element={<TermsConditions />} />
             <Route path="*" element={<NotFound />} />

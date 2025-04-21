@@ -52,7 +52,7 @@ const Navbar = () => {
             <Link to="/contact" className="text-gray-700 hover:text-primary font-medium">
               Contact
             </Link>
-            <Link to="/book-now" className="btn-primary">
+            <Link to="/contact" className="btn-primary">
               Book Now
             </Link>
           </div>
@@ -105,7 +105,7 @@ const Navbar = () => {
                 Contact
               </Link>
               <Link
-                to="/book-now"
+                to="/contact"
                 className="btn-primary inline-block text-center"
                 onClick={closeMenu}
               >
