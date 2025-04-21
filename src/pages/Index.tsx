@@ -18,7 +18,7 @@ const Index = () => {
               description="Experience top-quality car detailing at your home or workplace in Lethbridge City! Our expert team ensures your vehicle looks spotless."
               linkUrl="/interior-detailing"
               linkText="Learn More"
-              imageUrl="https://images.unsplash.com/photo-1575750679513-d7bfa919e0d7?w=800&q=80"
+              imageUrl="/lovable-uploads/dd693399-daaf-461c-8bc0-bf6c3aca066d.png"
             />
             <ServiceCard 
               title="Exterior Car Detailing"
