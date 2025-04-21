@@ -3,11 +3,11 @@ const About = () => {
   return (
     <div className="py-12">
       <div className="container-custom">
-        <h1 className="text-4xl font-bold mb-8">About Right Car Detailing</h1>
+        <h1 className="text-4xl font-bold mb-8">About Bridge Auto Detailing</h1>
         
         <div className="bg-white shadow-md rounded-lg p-8 mb-12">
           <p className="text-lg mb-6">
-            At Right Car Detailing, we believe that every vehicle deserves to look its best. What started 
+            At Bridge Auto Detailing, we believe that every vehicle deserves to look its best. What started 
             as a passion for automotive perfection quickly became a mission to provide the highest quality 
             mobile detailing services throughout Alberta and British Columbia.
           </p>
@@ -21,7 +21,7 @@ const About = () => {
           
           <h2 className="text-2xl font-bold mb-4 mt-8">Our Story</h2>
           <p className="text-lg mb-6">
-            Right Car Detailing was founded on the principle that quality detailing should be 
+            Bridge Auto Detailing was founded on the principle that quality detailing should be 
             convenient, thorough, and personalized. Our founder's passion for automotive care 
             led to the creation of a service that comes directly to you, eliminating the need 
             to spend hours waiting at a detailing shop.
@@ -48,7 +48,7 @@ const About = () => {
         </div>
         
         <div className="bg-primary text-white p-8 rounded-lg text-center">
-          <h2 className="text-2xl font-bold mb-4">Experience the Right Car Detailing Difference</h2>
+          <h2 className="text-2xl font-bold mb-4">Experience the Bridge Auto Detailing Difference</h2>
           <p className="text-lg mb-6">
             Book your mobile detailing appointment today and see why our customers keep coming back!
           </p>

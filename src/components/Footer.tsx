@@ -9,7 +9,7 @@ const Footer = () => {
       <div className="container-custom py-12">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">Right Car Detailing</h3>
+            <h3 className="text-xl font-bold mb-4">Bridge Auto Detailing</h3>
             <p className="mb-4">
               Premium mobile car detailing services in Alberta and British Columbia. We bring our expertise to your doorstep!
             </p>
@@ -86,7 +86,7 @@ const Footer = () => {
 
         <div className="border-t border-gray-700 mt-8 pt-8 text-center">
           <p>
-            &copy; {currentYear} Right Car Detailing. All rights reserved.
+            &copy; {currentYear} Bridge Auto Detailing. All rights reserved.
           </p>
         </div>
       </div>
@@ -95,3 +95,4 @@ const Footer = () => {
 };
 
 export default Footer;
+

@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className="container-custom py-4">
         <div className="flex justify-between items-center">
           <Link to="/" className="flex items-center">
-            <span className="text-2xl font-bold text-primary">Right Car Detailing</span>
+            <span className="text-2xl font-bold text-primary">Bridge Auto Detailing</span>
           </Link>
 
           {/* Mobile menu button */}
